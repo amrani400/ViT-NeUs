@@ -17,3 +17,6 @@ Code for anonymous 3D reconstruction submission.
 Install required packages via pip:
 ```bash
 pip install torch torchvision numpy pyhocon opencv-python trimesh tensorboard
+
+### train
+python exp_runner.py --conf womask.conf --mode train --case CASE_NAME
