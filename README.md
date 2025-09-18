@@ -18,7 +18,13 @@ Install required packages via pip:
 ```bash
 pip install torch torchvision numpy pyhocon opencv-python trimesh tensorboard
 ```
+
 ### train
 ```
 python exp_runner.py --conf womask.conf --mode train --case CASE_NAME
+```
+
+### validate
+```
+python exp_runner.py --conf womask.conf --mode validate_mesh --mcube_threshold 0.0 --resolution 1024
 ```
