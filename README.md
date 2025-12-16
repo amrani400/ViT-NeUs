@@ -28,5 +28,3 @@ python exp_runner.py --conf womask.conf --mode train --case CASE_NAME
 ```
 python exp_runner.py --conf womask.conf --mode validate_mesh --mcube_threshold 0.0 --resolution 1024
 ```
-## Dataset
-the insect dataset is available at : https://drive.google.com/file/d/1QkLr9OU5NzqOv8t92-HjJTL6OKAbm9xg/view?usp=sharing
